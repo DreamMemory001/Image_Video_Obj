@@ -183,13 +183,31 @@ ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的�
 
   - **R-CNN:** Ross Girshick, Jeff Donahue, Trevor Darrell, Jitendra Malik. "Rich feature hierarchies for accurate object detection and semantic segmentation." [[paper](https://arxiv.org/abs/1311.2524)]
 
+###  视频语义分割
 
+> 相比于图像语义，视频语义分割具有高帧数（15-30帧/s）,前后帧之间高相关性的特点，并且在自动驾驶任务中，对RGB摄像头传入的视频信号具有很高的实时性的要求。
 
+* 1.[STFCN: Spatio-Temporal FCN for Semantic Video Segmentation](https://arxiv.org/pdf/1608.05971.pdf)
 
+ 本篇论文在FCN的基础上进行改进的，利用LSTM将FCNs并联成为一个叫做时空卷积网络的结构（spatio-  temporal CNNs）
 
+主要的贡献：
 
+   1.该方法提升了原有的语义分割结果。
 
+   2.提出了一种结合实践特征与空间特征的端到端架构。
 
+<div align="center"><src="/images/p3.png"></div>
+
+* 2.[Semantic Video Segmentation by Gated Recurrent Flow Propagation](https://arxiv.org/pdf/1612.08871.pdf)     (基于门控递归流传播的语义视频分割)
+
+在视频语义分割问题当中，还有一个无法避免的问题就是确少高质量的标注数据，因为视频任务数据量大（假设一秒30帧，一分钟的数据就是1800帧）而语义分割的数据标注极为繁琐耗时（大约30分钟可以标注一张）。因此，如何有效利用视频语义分割任务中少量高质量标注数据集达到好的分割效果也是一个很好的研究方向。针对少量标注样本问题，主要解决方案就是进行弱监督或者半监督学习，弱监督学习方法不适用完整标注数据集进行训练，而是使用大量的分类或者检测数据集进行训练，从而减少标注成本提高分割准确率；半监督学习则是使用少量标注数据集训练网络以求得到一个较好的泛化模型，在视频语义分割任务当中就是关键帧提取，只针对视频中少量关键帧的标注数据进行训练，使模型适用于整个视频流。
+
+在本篇论文中，作者设计了一个叫做Spatio-Temporal Transformer Gated Recurrent Unit（不会翻译）的单元来融合各帧信息，作者认为相邻两帧之间包含大量冗余信息，但是两帧之间差异较大（漂移形变）的区域包含的信息将十分有意义，作者使用了[光流](http://www.docin.com/p-1725315067.html)来衡量漂移形变比较明显的区域。
+
+<div align="center"><src="/images/p5.png"></div>
+
+ 
 
 
 
