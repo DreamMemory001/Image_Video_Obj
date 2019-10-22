@@ -197,7 +197,7 @@ ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的�
 
    2.提出了一种结合实践特征与空间特征的端到端架构。
 
-<div align="center">< img src="/images/p3.png"></div>
+ <div align="center"><img src="/images/p3.png"></div>
 
 * 2.[Semantic Video Segmentation by Gated Recurrent Flow Propagation](https://arxiv.org/pdf/1612.08871.pdf)     (基于门控递归流传播的语义视频分割)
 
