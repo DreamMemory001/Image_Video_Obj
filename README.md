@@ -197,7 +197,7 @@ ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的�
 
    2.提出了一种结合实践特征与空间特征的端到端架构。
 
-<div align="center"><src="/images/p3.png"></div>
+<div align="center">< img src="/images/p3.png"></div>
 
 * 2.[Semantic Video Segmentation by Gated Recurrent Flow Propagation](https://arxiv.org/pdf/1612.08871.pdf)     (基于门控递归流传播的语义视频分割)
 
@@ -205,7 +205,7 @@ ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的�
 
 在本篇论文中，作者设计了一个叫做Spatio-Temporal Transformer Gated Recurrent Unit（不会翻译）的单元来融合各帧信息，作者认为相邻两帧之间包含大量冗余信息，但是两帧之间差异较大（漂移形变）的区域包含的信息将十分有意义，作者使用了[光流](http://www.docin.com/p-1725315067.html)来衡量漂移形变比较明显的区域。
 
-<div align="center"><src="/images/p5.png"></div>
+ <div align="center"><img src="/images/p5.png"></div>
 
  
 
