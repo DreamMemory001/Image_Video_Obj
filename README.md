@@ -67,7 +67,7 @@ ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的�
 
     YouTube-Objects数据集由从YouTube收集的视频组成，查询PASCAL VOC Challenge的10个对象类别的名称。             每个对象包含9到24个视频。每个视频的持续时间在30秒到3分钟之间变化。视频被弱标注，即我们确保每个视频包含相应类的至少一个对象。该数据集包括aeroplane、bird、boat、car、cat、cow、dog、horse、motorbike和train这10个类别，具体可在网页上查看[YouTube-Objects v2.3 Preview](YouTube-Objects v2.3 Preview)。
 
-​        [YouTube-Objects 数据集](http://calvin.inf.ed.ac.uk/datasets/youtube-objects-dataset/ )
+*  [YouTube-Objects 数据集](http://calvin.inf.ed.ac.uk/datasets/youtube-objects-dataset/ )
 
 3. Yahoo实验室公开的一亿Flickr的图像和视频
 
@@ -83,7 +83,7 @@ ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的�
 
 6. 猫狗图片
 
-​      [猫狗图片](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition)
+*   [猫狗图片](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition)
 
 ### 相关资料
 
