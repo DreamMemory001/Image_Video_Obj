@@ -3,8 +3,41 @@
 
 [基于图像和视频目标检测的区别 ](https://www.zhihu.com/question/52185576)
 
+### 图像目标检测
 
-### 视频检测的发展 
+**目前的五大图像处理任务**
+
+* 1.图像分类
+* 2.图像分类与定位
+* 3.语义分割
+* 4.图像目标检测
+* 5.实例分割
+
+**六大图像数据库**
+
+* 1.PASCAL Visual Object Classes (VOC) 挑战（人、车、自行车、公交车、飞机、羊、牛、桌等20大类 ）
+* 2.MS COCO: Microsoft Common Object in Context（80大类， 多目标）
+* 3.ImageNet Object Detection: ILSVRC DET 任务（200类别，578,482 图片）
+* 4.Oxford-IIIT Pet Dataset（37 类别，每个类别 200 图片）
+* 5.Cityscapes Dataset（30 类别，25,000 + 真实开车场景图片）
+* 6.ADE20K Dataset（150+ 类别，22,000 + 普通场景图片）
+
+相比于视频目标检测，图像目标检测相对来说近些年的发展在逐步的走向完善。
+
+从2015年faster-RCNN的的提出，一直到YOLOv3的发表。
+
+最近的图像目标检测的论文中，比较典型的有SNIPER、CornerNet、ExtremeNet、TridentNet、FSAF、FCOS、FoveaBox、两个CenterNet 和 CornerNet-Lite 等等。
+
+* 1.**SNIPER: Efficient Multi-Scale Training**    **mAP**：47.6        [paper](https://arxiv.org/abs/1805.09300 ) -----[code](https://github.com/MahyarNajibi/SNIPER/ )
+* 2.**TridentNet：Scale-Aware Trident Networks for Object Detection**   **mAP**:48.4    [paper](https://arxiv.org/abs/1901.01892)---[code](https://github.com/TuSimple/simpledet)
+* 3.**HTC + DCN + ResNeXt-101-FPN**    **mAP**:50.7  [paper](https://arxiv.org/abs/1901.07518)----[code](https://github.com/open-mmlab/mmdetection)
+* 4.**NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection**     [paper](https://arxiv.org/abs/1904.07392 )
+* 5.**CornerNet-Saccade+gt attention**    **mAP**:50.3    [paper](https://arxiv.org/abs/1904.08900)----[code](https://github.com/princeton-vl/CornerNet-Lite)
+* 6.**Cascade R-CNN：High Quality Object Detection and Instance Segmentation**     **mAP**:50.9     [paper](https://arxiv.org/abs/1906.09756)---[code](https://github.com/zhaoweicai/Detectron-Cascade-RCNN )
+* 7.**Learning Data Augmentation Strategies for Object Detection**   **mAP**:50.7    [paper](https://arxiv.org/abs/1906.11172)---[code](https://github.com/tensorflow/tpu/tree/master/models/official/detection)
+
+
+### 视频目标检测的发展 
 
 > Introduction
 
@@ -67,7 +100,7 @@ ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的�
 
     YouTube-Objects数据集由从YouTube收集的视频组成，查询PASCAL VOC Challenge的10个对象类别的名称。             每个对象包含9到24个视频。每个视频的持续时间在30秒到3分钟之间变化。视频被弱标注，即我们确保每个视频包含相应类的至少一个对象。该数据集包括aeroplane、bird、boat、car、cat、cow、dog、horse、motorbike和train这10个类别，具体可在网页上查看[YouTube-Objects v2.3 Preview](YouTube-Objects v2.3 Preview)。
 
-*  [YouTube-Objects 数据集](http://calvin.inf.ed.ac.uk/datasets/youtube-objects-dataset/ )
+​      [YouTube-Objects 数据集](http://calvin.inf.ed.ac.uk/datasets/youtube-objects-dataset/ )
 
 3. Yahoo实验室公开的一亿Flickr的图像和视频
 
@@ -83,7 +116,7 @@ ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的�
 
 6. 猫狗图片
 
-*   [猫狗图片](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition)
+​       [猫狗图片](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition)
 
 ### 相关资料
 
@@ -209,27 +242,19 @@ ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的�
 
  
 
+### 目标检测 
 
+* [cascade-rcnn](https://github.com/zhaoweicai/cascade-rcnn)
+* [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch)
+* [mAP](https://github.com/Cartucho/mAP) mean AP python版本，对于理解object detection的评估有帮助。
 
+**mAP评价**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [mAP（mean average precision）](https://blog.csdn.net/chenyanqiao2010/article/details/50114799)
+* [Object-Detection-Metrics](https://github.com/rafaelpadilla/Object-Detection-Metrics) 常见的目标检测评估指标。
+* [Evaluation of ranked retrieval results](https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1.html)
+* [The PASCAL Visual Object Classes Challenge 2012 (VOC2012) Development Kit](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/htmldoc/devkit_doc.html#SECTION00050000000000000000)
+* [COCO Detection Challenge](https://competitions.codalab.org/competitions/5181)
+* [Measuring Object Detection models - mAP - What is Mean Average Precision?](http://tarangshah.com/blog/2018-01-27/what-is-map-understanding-the-statistic-of-choice-for-comparing-object-detection-models/) 较好地计算了目标检测中的评价模型。
+* [Intersection over Union (IoU) for object detection](https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/) pyimagesearch中IOU目标检测的相关定义。
 
