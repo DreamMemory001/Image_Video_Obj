@@ -84,6 +84,8 @@ DFF则将warp操作扩展到feature map上，从而达到进行特征传递的�
 
    [ILSVRC2015数据集地址](<http://bvisionweb1.cs.unc.edu/ilsvrc2015/ILSVRC2015_VID.tar.gz> )
 
+   [ILSVRC2017数据集地址](http://bvisionweb1.cs.unc.edu/ILSVRC2017/download-videos-1p39.php)
+
 ImageNet VID challenges，这是在kaggle上的关于ImageNet上基于视频的目标检测挑战，目的是为了识别和标          记视频中的普通目标。
 
 该数据集文件如下：
