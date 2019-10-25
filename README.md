@@ -1,5 +1,5 @@
 # Image_and_Video_Obj
-## 基于图像，视频的目标检测总结的一点知识
+## 基于图像，视频的目标检测的一些总结
 
 [基于图像和视频目标检测的区别 ](https://www.zhihu.com/question/52185576)
 
