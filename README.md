@@ -15,12 +15,12 @@
 
 **六大图像数据库**
 
-* 1.PASCAL Visual Object Classes (VOC) 挑战（人、车、自行车、公交车、飞机、羊、牛、桌等20大类 ）
-* 2.MS COCO: Microsoft Common Object in Context（80大类， 多目标）
-* 3.ImageNet Object Detection: ILSVRC DET 任务（200类别，578,482 图片）
-* 4.Oxford-IIIT Pet Dataset（37 类别，每个类别 200 图片）
-* 5.Cityscapes Dataset（30 类别，25,000 + 真实开车场景图片）
-* 6.ADE20K Dataset（150+ 类别，22,000 + 普通场景图片）
+- * 1.PASCAL Visual Object Classes (VOC) 挑战（人、车、自行车、公交车、飞机、羊、牛、桌等20大类 ）- 
+- * 2.MS COCO: Microsoft Common Object in Context（80大类， 多目标）
+- * 3.ImageNet Object Detection: ILSVRC DET 任务（200类别，578,482 图片）
+- * 4.Oxford-IIIT Pet Dataset（37 类别，每个类别 200 图片）
+- * 5.Cityscapes Dataset（30 类别，25,000 + 真实开车场景图片）
+- * 6.ADE20K Dataset（150+ 类别，22,000 + 普通场景图片）
 
 相比于视频目标检测，图像目标检测相对来说近些年的发展在逐步的走向完善。
 
