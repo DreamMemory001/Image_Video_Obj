@@ -15,12 +15,12 @@
 
 **六大图像数据库**
 
-- * 1.PASCAL Visual Object Classes (VOC) 挑战（人、车、自行车、公交车、飞机、羊、牛、桌等20大类 ）- 
-- * 2.MS COCO: Microsoft Common Object in Context（80大类， 多目标）
-- * 3.ImageNet Object Detection: ILSVRC DET 任务（200类别，578,482 图片）
-- * 4.Oxford-IIIT Pet Dataset（37 类别，每个类别 200 图片）
-- * 5.Cityscapes Dataset（30 类别，25,000 + 真实开车场景图片）
-- * 6.ADE20K Dataset（150+ 类别，22,000 + 普通场景图片）
+* 1.PASCAL Visual Object Classes (VOC) 挑战（人、车、自行车、公交车、飞机、羊、牛、桌等20大类 ）- 
+* 2.MS COCO: Microsoft Common Object in Context（80大类， 多目标）
+* 3.ImageNet Object Detection: ILSVRC DET 任务（200类别，578,482 图片） 
+* 4.Oxford-IIIT Pet Dataset（37 类别，每个类别 200 图片）
+* 5.Cityscapes Dataset（30 类别，25,000 + 真实开车场景图片）
+* 6.ADE20K Dataset（150+ 类别，22,000 + 普通场景图片）
 
 相比于视频目标检测，图像目标检测相对来说近些年的发展在逐步的走向完善。
 
@@ -28,13 +28,13 @@
 
 最近的图像目标检测的论文中，比较典型的有SNIPER、CornerNet、ExtremeNet、TridentNet、FSAF、FCOS、FoveaBox、两个CenterNet 和 CornerNet-Lite 等等。
 
-* 1.**SNIPER: Efficient Multi-Scale Training**    **mAP**：47.6        [paper](https://arxiv.org/abs/1805.09300 ) -----[code](https://github.com/MahyarNajibi/SNIPER/ )
-* 2.**TridentNet：Scale-Aware Trident Networks for Object Detection**   **mAP**:48.4    [paper](https://arxiv.org/abs/1901.01892)---[code](https://github.com/TuSimple/simpledet)
-* 3.**HTC + DCN + ResNeXt-101-FPN**    **mAP**:50.7  [paper](https://arxiv.org/abs/1901.07518)----[code](https://github.com/open-mmlab/mmdetection)
-* 4.**NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection**     [paper](https://arxiv.org/abs/1904.07392 )
-* 5.**CornerNet-Saccade+gt attention**    **mAP**:50.3    [paper](https://arxiv.org/abs/1904.08900)----[code](https://github.com/princeton-vl/CornerNet-Lite)
-* 6.**Cascade R-CNN：High Quality Object Detection and Instance Segmentation**     **mAP**:50.9     [paper](https://arxiv.org/abs/1906.09756)---[code](https://github.com/zhaoweicai/Detectron-Cascade-RCNN )
-* 7.**Learning Data Augmentation Strategies for Object Detection**   **mAP**:50.7    [paper](https://arxiv.org/abs/1906.11172)---[code](https://github.com/tensorflow/tpu/tree/master/models/official/detection)
+- * 1.**SNIPER: Efficient Multi-Scale Training**    **mAP**：47.6        [paper](https://arxiv.org/abs/1805.09300 ) -----[code](https://github.com/MahyarNajibi/SNIPER/ )
+- * 2.**TridentNet：Scale-Aware Trident Networks for Object Detection**   **mAP**:48.4    [paper](https://arxiv.org/abs/1901.01892)---[code](https://github.com/TuSimple/simpledet)
+- * 3.**HTC + DCN + ResNeXt-101-FPN**    **mAP**:50.7  [paper](https://arxiv.org/abs/1901.07518)----[code](https://github.com/open-mmlab/mmdetection)
+- * 4.**NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection**     [paper](https://arxiv.org/abs/1904.07392 )
+- * 5.**CornerNet-Saccade+gt attention**    **mAP**:50.3    [paper](https://arxiv.org/abs/1904.08900)----[code](https://github.com/princeton-vl/CornerNet-Lite)
+- * 6.**Cascade R-CNN：High Quality Object Detection and Instance Segmentation**     **mAP**:50.9     [paper](https://arxiv.org/abs/1906.09756)---[code](https://github.com/zhaoweicai/Detectron-Cascade-RCNN )
+- * 7.**Learning Data Augmentation Strategies for Object Detection**   **mAP**:50.7    [paper](https://arxiv.org/abs/1906.11172)---[code](https://github.com/tensorflow/tpu/tree/master/models/official/detection)
 
 
 ### 视频目标检测的发展 
